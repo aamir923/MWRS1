@@ -1,0 +1,68 @@
+$begin date_time_stamp
+	timesinceepock:1740400603
+$end date_time_stamp
+$begin sysinfo
+	os:win
+	cpuid:'AMD Ryzen 3 5300U with Radeon Graphics         '
+	cpumodel:NA
+	cpubrand:amd
+	cpuPhyCores:4
+	cpuLogCores:8
+	cpufreqkhz:0
+	cpucachelinesize:64
+	cpuestllcmb:64
+	cpuestgflops:408
+	cpuestbwkbps:51.2
+	numnumanodes:1
+	virtualmemkb:1.37439e+11
+	pagesizekb:4096
+$end sysinfo
+$begin matsolver
+	$begin matsolverinfo
+		solvertype:shared_memory
+		solverprecision:double
+		solversymmetry:complex_symm
+		matrixdim:13496
+		matrixbw:19.5723
+		matrixnnz:264148
+		rootdim:8
+		mathlib:amd
+		nummpitasks:1
+		numthreadpermpitasks:0
+	$end matsolverinfo
+	$begin matsolveranalysis
+		analysysstatus:valid
+		numsupernodes:1222
+		factornnz:1135584
+		factorestflops:237943034
+		fbsestflops:3344286
+		rootfactestflops:190
+		rootfbsestflops:32
+		analysistimesec:0.0704323
+		analysismemkb:7420
+	$end matsolveranalysis
+	$begin matsolverfact
+		fatorizationstatus:valid
+		factorizationnumcores:3
+		factorizationtimesec:0.0529241
+		factorizationmentotalkb:24222
+	$end matsolverfact
+	$begin matsolverfbs
+		fbstatus:valid
+		fbstype:fullsolve
+		fbsmt:false
+		fbsmrhs:false
+		fbsnumcores:3
+		fbsnumsolves:3
+		fbsavgsolvetime1solvesec:0.0049591
+		fbscputimesec:0.0148773
+		fbsmemorytotalkb:28352
+	$end matsolverfbs
+	$begin matsolverprofile
+		maxmemkb:28352
+		diskkb:0
+		totalrealtimesec:-1
+		totalcputimesec:-1
+		totaltimesec:-1
+	$end matsolverprofile
+$end matsolver

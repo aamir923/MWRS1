@@ -1,0 +1,345 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000002, day=000000000024, hour=000000000019, min=000000000015, sec=000000000013)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000013429, lin=000000000324, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock2'
+	SolutionName='AdaptivePass'
+	SolutionID=30
+	V=0
+	$begin 'States'
+		F(VID=32, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(10000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=32, Ver=0, File='DV32_SOL30_M1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=32, Ver=0, File='DV32_SOL30_M2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=32, Ver=0, File='DV32_SOL30_M3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=32, Ver=0, File='DV32_SOL30_M4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=32, Ver=0, File='DV32_SOL30_M5_V0.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock2'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=29, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock5'
+	'SolutionKey(SimSetup=29, Instance=\'SolutionDefinition\', Solution=30, VersionID=0)'='SolutionBlock2'
+	'SolutionKey(SimSetup=29, Instance=\'SolutionDefinition\', Solution=31, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=29, Instance=\'SolutionDefinition\', Solution=35, VersionID=0)'='SolutionBlock4'
+$end 'BlockMapName'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=31
+	V=0
+	$begin 'States'
+		F(VID=32, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(10000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=32, Ver=0, File='DV32_SOL31_M0_V0.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(93, 10000000000)
+		$begin 'DataMap'
+			VID=32
+			Ver=0
+			F(DblID=93, Dir='DV32_S31_V0_F93/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SolutionName='Sweep'
+	SolutionID=35
+	V=0
+	$begin 'States'
+		F(VID=32, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(6000000000, 6100000000, 6200000000, 6300000000, 6400000000, 6500000000, 6600000000, 6700000000, 6800000000, 6900000000, 7000000000, 7100000000, 7200000000, 7300000000, 7400000000, 7500000000, 7600000000, 7700000000, 7800000000, 7900000000, 8000000000, 8100000000, 8200000000, 8300000000, 8400000000, 8500000000, 8600000000, 8700000000, 8800000000, 8900000000, 9000000000, 9100000000, 9200000000, 9300000000, 9400000000, 9500000000, 9600000000, 9700000000, 9800000000, 9900000000, 10000000000, 10100000000, 10200000000, 10300000000, 10400000000, 10500000000, 10600000000, 10700000000, 10800000000, 10900000000, 11000000000, 11100000000, 11200000000, 11300000000, 11400000000, 11500000000, 11600000000, 11700000000, 11800000000, 11900000000, 12000000000, 12100000000, 12200000000, 12300000000, 12400000000, 12500000000, 12600000000, 12700000000, 12800000000, 12900000000, 13000000000, 13100000000, 13200000000, 13300000000, 13400000000, 13500000000, 13600000000, 13700000000, 13800000000, 13900000000, 14000000000, 14100000000, 14200000000, 14300000000, 14400000000, 14500000000, 14600000000, 14700000000, 14800000000, 14900000000, 15000000000)
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=32, Ver=0, File='DV32_SOL35_M0_V0.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'TransientSolveStauts'
+		SS(VID=32, Ver=0, SS=1)
+	$end 'TransientSolveStauts'
+	$begin 'SolverUsage'
+		IDDblMap(110, 15000000000, 111, 6000000000, 112, 10500000000, 114, 12750000000, 115, 8250000000, 116, 11625000000, 117, 13875000000, 118, 7125000000, 119, 9375000000, 120, 7687499999.999999, 121, 12187500000, 122, 14437500000, 123, 13312500000, 124, 14156250000, 125, 14718750000, 126, 12468750000, 127, 13031250000, 128, 14578125000, 129, 13593750000, 130, 14296875000, 131, 7968749999.999999, 132, 11906250000, 133, 7406249999.999999, 134, 12890625000, 135, 6562500000, 136, 12609375000, 137, 11062500000, 138, 8812500000, 139, 10250000000, 140, 9687500000, 141, 13734375000, 142, 6843750000, 143, 6281250000, 144, 6703125000, 145, 14859375000, 146, 6421875000, 147, 14929687500, 148, 6632812500, 149, 14015625000, 150, 13453125000, 151, 13171875000, 152, 14367187500, 153, 14789062500, 154, 6597656250, 155, 14648437500, 156, 14824218750, 157, 6984375000, 158, 13242187500, 159, 13945312500, 160, 8531249999.999998, 161, 13382812500, 162, 10781250000, 163, 9093750000, 164, 13804687500, 165, 13523437500, 166, 9234375000, 167, 14964843750, 168, 14507812500, 169, 8400000000, 170, 14332031250, 171, 14085937500, 172, 6500000000, 173, 14613281250, 174, 13980468750, 175, 6100000000, 176, 14753906250, 177, 13664062500, 178, 10640625000, 179, 7500000000, 180, 14947265625, 181, 12679687500, 182, 10100000000, 183, 14956054687.5, 184, 12714843750, 185, 6200000000, 186, 13417968750, 187, 10600000000, 188, 13628906250, 189, 13558593750, 190, 11300000000, 191, 13839843750, 192, 14771484375, 193, 13488281250, 194, 12400000000, 195, 14121093750, 196, 13505859375, 197, 13998046875, 198, 13989257812.5, 199, 13207031250, 200, 14683593750, 201, 14841796875, 202, 12820312500, 203, 14806640625, 204, 14797851562.5, 205, 13189453125, 206, 14894531250, 207, 14793457031.25, 208, 13224609375, 209, 14815429687.5, 210, 13900000000, 211, 13277343750, 212, 13233398437.5, 213, 13215820312.5, 214, 13259765625, 215, 13237792968.75, 216, 13611328125, 217, 13541015625, 218, 13576171875)
+		$begin 'DataMap'
+			VID=32
+			Ver=0
+			SU(DblID=111, SU='DV32_S35_V0_F111_SU.txt')
+			SU(DblID=175, SU='DV32_S35_V0_F175_SU.txt')
+			SU(DblID=185, SU='DV32_S35_V0_F185_SU.txt')
+			SU(DblID=143, SU='DV32_S35_V0_F143_SU.txt')
+			SU(DblID=146, SU='DV32_S35_V0_F146_SU.txt')
+			SU(DblID=172, SU='DV32_S35_V0_F172_SU.txt')
+			SU(DblID=135, SU='DV32_S35_V0_F135_SU.txt')
+			SU(DblID=154, SU='DV32_S35_V0_F154_SU.txt')
+			SU(DblID=148, SU='DV32_S35_V0_F148_SU.txt')
+			SU(DblID=144, SU='DV32_S35_V0_F144_SU.txt')
+			SU(DblID=142, SU='DV32_S35_V0_F142_SU.txt')
+			SU(DblID=157, SU='DV32_S35_V0_F157_SU.txt')
+			SU(DblID=118, SU='DV32_S35_V0_F118_SU.txt')
+			SU(DblID=133, SU='DV32_S35_V0_F133_SU.txt')
+			SU(DblID=179, SU='DV32_S35_V0_F179_SU.txt')
+			SU(DblID=120, SU='DV32_S35_V0_F120_SU.txt')
+			SU(DblID=131, SU='DV32_S35_V0_F131_SU.txt')
+			SU(DblID=115, SU='DV32_S35_V0_F115_SU.txt')
+			SU(DblID=169, SU='DV32_S35_V0_F169_SU.txt')
+			SU(DblID=160, SU='DV32_S35_V0_F160_SU.txt')
+			SU(DblID=138, SU='DV32_S35_V0_F138_SU.txt')
+			SU(DblID=163, SU='DV32_S35_V0_F163_SU.txt')
+			SU(DblID=166, SU='DV32_S35_V0_F166_SU.txt')
+			SU(DblID=119, SU='DV32_S35_V0_F119_SU.txt')
+			SU(DblID=140, SU='DV32_S35_V0_F140_SU.txt')
+			SU(DblID=182, SU='DV32_S35_V0_F182_SU.txt')
+			SU(DblID=139, SU='DV32_S35_V0_F139_SU.txt')
+			SU(DblID=112, SU='DV32_S35_V0_F112_SU.txt')
+			SU(DblID=187, SU='DV32_S35_V0_F187_SU.txt')
+			SU(DblID=178, SU='DV32_S35_V0_F178_SU.txt')
+			SU(DblID=162, SU='DV32_S35_V0_F162_SU.txt')
+			SU(DblID=137, SU='DV32_S35_V0_F137_SU.txt')
+			SU(DblID=190, SU='DV32_S35_V0_F190_SU.txt')
+			SU(DblID=116, SU='DV32_S35_V0_F116_SU.txt')
+			SU(DblID=132, SU='DV32_S35_V0_F132_SU.txt')
+			SU(DblID=121, SU='DV32_S35_V0_F121_SU.txt')
+			SU(DblID=194, SU='DV32_S35_V0_F194_SU.txt')
+			SU(DblID=126, SU='DV32_S35_V0_F126_SU.txt')
+			SU(DblID=136, SU='DV32_S35_V0_F136_SU.txt')
+			SU(DblID=181, SU='DV32_S35_V0_F181_SU.txt')
+			SU(DblID=184, SU='DV32_S35_V0_F184_SU.txt')
+			SU(DblID=114, SU='DV32_S35_V0_F114_SU.txt')
+			SU(DblID=202, SU='DV32_S35_V0_F202_SU.txt')
+			SU(DblID=134, SU='DV32_S35_V0_F134_SU.txt')
+			SU(DblID=127, SU='DV32_S35_V0_F127_SU.txt')
+			SU(DblID=151, SU='DV32_S35_V0_F151_SU.txt')
+			SU(DblID=205, SU='DV32_S35_V0_F205_SU.txt')
+			SU(DblID=199, SU='DV32_S35_V0_F199_SU.txt')
+			SU(DblID=213, SU='DV32_S35_V0_F213_SU.txt')
+			SU(DblID=208, SU='DV32_S35_V0_F208_SU.txt')
+			SU(DblID=212, SU='DV32_S35_V0_F212_SU.txt')
+			SU(DblID=215, SU='DV32_S35_V0_F215_SU.txt')
+			SU(DblID=158, SU='DV32_S35_V0_F158_SU.txt')
+			SU(DblID=214, SU='DV32_S35_V0_F214_SU.txt')
+			SU(DblID=211, SU='DV32_S35_V0_F211_SU.txt')
+			SU(DblID=123, SU='DV32_S35_V0_F123_SU.txt')
+			SU(DblID=161, SU='DV32_S35_V0_F161_SU.txt')
+			SU(DblID=186, SU='DV32_S35_V0_F186_SU.txt')
+			SU(DblID=150, SU='DV32_S35_V0_F150_SU.txt')
+			SU(DblID=193, SU='DV32_S35_V0_F193_SU.txt')
+			SU(DblID=196, SU='DV32_S35_V0_F196_SU.txt')
+			SU(DblID=165, SU='DV32_S35_V0_F165_SU.txt')
+			SU(DblID=217, SU='DV32_S35_V0_F217_SU.txt')
+			SU(DblID=189, SU='DV32_S35_V0_F189_SU.txt')
+			SU(DblID=218, SU='DV32_S35_V0_F218_SU.txt')
+			SU(DblID=129, SU='DV32_S35_V0_F129_SU.txt')
+			SU(DblID=216, SU='DV32_S35_V0_F216_SU.txt')
+			SU(DblID=188, SU='DV32_S35_V0_F188_SU.txt')
+			SU(DblID=177, SU='DV32_S35_V0_F177_SU.txt')
+			SU(DblID=141, SU='DV32_S35_V0_F141_SU.txt')
+			SU(DblID=164, SU='DV32_S35_V0_F164_SU.txt')
+			SU(DblID=191, SU='DV32_S35_V0_F191_SU.txt')
+			SU(DblID=117, SU='DV32_S35_V0_F117_SU.txt')
+			SU(DblID=210, SU='DV32_S35_V0_F210_SU.txt')
+			SU(DblID=159, SU='DV32_S35_V0_F159_SU.txt')
+			SU(DblID=174, SU='DV32_S35_V0_F174_SU.txt')
+			SU(DblID=198, SU='DV32_S35_V0_F198_SU.txt')
+			SU(DblID=197, SU='DV32_S35_V0_F197_SU.txt')
+			SU(DblID=149, SU='DV32_S35_V0_F149_SU.txt')
+			SU(DblID=171, SU='DV32_S35_V0_F171_SU.txt')
+			SU(DblID=195, SU='DV32_S35_V0_F195_SU.txt')
+			SU(DblID=124, SU='DV32_S35_V0_F124_SU.txt')
+			SU(DblID=130, SU='DV32_S35_V0_F130_SU.txt')
+			SU(DblID=170, SU='DV32_S35_V0_F170_SU.txt')
+			SU(DblID=152, SU='DV32_S35_V0_F152_SU.txt')
+			SU(DblID=122, SU='DV32_S35_V0_F122_SU.txt')
+			SU(DblID=168, SU='DV32_S35_V0_F168_SU.txt')
+			SU(DblID=128, SU='DV32_S35_V0_F128_SU.txt')
+			SU(DblID=173, SU='DV32_S35_V0_F173_SU.txt')
+			SU(DblID=155, SU='DV32_S35_V0_F155_SU.txt')
+			SU(DblID=200, SU='DV32_S35_V0_F200_SU.txt')
+			SU(DblID=125, SU='DV32_S35_V0_F125_SU.txt')
+			SU(DblID=176, SU='DV32_S35_V0_F176_SU.txt')
+			SU(DblID=192, SU='DV32_S35_V0_F192_SU.txt')
+			SU(DblID=153, SU='DV32_S35_V0_F153_SU.txt')
+			SU(DblID=207, SU='DV32_S35_V0_F207_SU.txt')
+			SU(DblID=204, SU='DV32_S35_V0_F204_SU.txt')
+			SU(DblID=203, SU='DV32_S35_V0_F203_SU.txt')
+			SU(DblID=209, SU='DV32_S35_V0_F209_SU.txt')
+			SU(DblID=156, SU='DV32_S35_V0_F156_SU.txt')
+			SU(DblID=201, SU='DV32_S35_V0_F201_SU.txt')
+			SU(DblID=145, SU='DV32_S35_V0_F145_SU.txt')
+			SU(DblID=206, SU='DV32_S35_V0_F206_SU.txt')
+			SU(DblID=147, SU='DV32_S35_V0_F147_SU.txt')
+			SU(DblID=180, SU='DV32_S35_V0_F180_SU.txt')
+			SU(DblID=183, SU='DV32_S35_V0_F183_SU.txt')
+			SU(DblID=167, SU='DV32_S35_V0_F167_SU.txt')
+			SU(DblID=110, SU='DV32_S35_V0_F110_SU.txt')
+		$end 'DataMap'
+	$end 'SolverUsage'
+$end 'SolutionBlock4'
+$begin 'SolutionBlock5'
+	SimSetupID=29
+	SimSetupName='Setup1'
+	VersionID=0
+	$begin 'EmConvergenceData'
+		EmConv(VID=32, Ver=0, EmConv='DV32_S29_V0.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=32, Ver=0, Dir='DV32_S29_V0.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=5
+			ADP(VID=32, Ver=0, Dir='DV32_S29_ADP5_V0.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=32, Ver=0, File='DV32_S29_SD1_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=32, Ver=0, File='DV32_S29_SD2_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			SU(VID=32, Ver=0, File='DV32_S29_SD3_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			SU(VID=32, Ver=0, File='DV32_S29_SD4_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			SU(VID=32, Ver=0, File='DV32_S29_SD5_V0.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=32, Ver=0, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=32, Ver=0, P=5)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=32, Ver=0, File='DV32_S29_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=32, Ver=0, Dir='DV32_S29_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock5'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=22
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=226
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=32)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=32, Ver=22, Dir='DV32_V22.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=24
+	$begin 'NextAssemVersionID'
+		NextUniqueID=25
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=23
+			VIDMap('', 88)
+			DM(VID=88, Ver=23, Dir='NDV88_V23.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=32, Ver=22, Dir='DV32_MI0_V22.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=23
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock1(pos=12600, lin=287, lvl=0)
+		SolutionBlock2(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1227, lin=42, lvl=0)
+		SolutionBlock3(pos=1711, lin=49, lvl=0)
+		SolutionBlock4(pos=2354, lin=82, lvl=0)
+		SolutionBlock5(pos=11200, lin=225, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=13429, lin=324, lvl=0)
+	$end '$index$'
+$end '$index$'
